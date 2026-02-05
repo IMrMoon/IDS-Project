@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+
+# Python cache / compiled files
+__pycache__/
+*.pyc
+
+# Serialized models / artifacts
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# Data & outputs
+data/
+analysis_results/
+slides/
+
+# Common generated media / exports
+*.csv
+*.png
+
+# IDE / editor settings
+.vscode/
+.idea/
