@@ -1,0 +1,246 @@
+2026-02-04 22:02:33,136 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:21:42,412 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:21:54,384 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:22:07,552 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:22:17,597 - MEDIUM - High flow creation rate detected: 22 flows in 3s
+2026-02-04 22:22:25,802 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:28,614 - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-04 22:22:35,811 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:38,814 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:38,853 - MEDIUM - High flow creation rate detected: 124 flows in 3s
+2026-02-04 22:22:42,835 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:47,851 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:49,109 - MEDIUM - High flow creation rate detected: 89 flows in 3s
+2026-02-04 22:22:59,849 - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-04 22:23:00,091 - MEDIUM - High flow creation rate detected: 114 flows in 3s
+2026-02-04 22:23:00,855 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:23:04,878 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:23:09,901 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:23:10,115 - MEDIUM - High flow creation rate detected: 94 flows in 3s
+2026-02-04 22:23:17,937 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:23:20,217 - MEDIUM - High flow creation rate detected: 20 flows in 3s
+2026-02-04 22:23:20,958 - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-04 22:23:30,244 - MEDIUM - High flow creation rate detected: 46 flows in 3s
+2026-02-04 22:23:38,990 - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:23:41,362 - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-04 22:23:42,006 - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:23:43,014 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:23:51,517 - MEDIUM - High flow creation rate detected: 49 flows in 3s
+2026-02-04 22:23:59,108 - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:24:00,116 - LOW - Anomalous network flow detected (score: 0.063)
+2026-02-04 22:24:01,123 - LOW - Anomalous network flow detected (score: 0.059)
+2026-02-04 22:24:01,827 - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:24:02,127 - HIGH - SYN stealth scan detected: 28 SYN packets without ACK in 5s
+2026-02-04 22:25:10,280 - LOW - Anomalous network flow detected (score: 0.041)
+2026-02-04 22:25:42,292 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:27:41,362 - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-04 22:33:06,865 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:33:18,184 - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-04 22:33:31,413 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:33:41,428 - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:33:43,091 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:33:51,467 - MEDIUM - High flow creation rate detected: 101 flows in 3s
+2026-02-04 22:33:52,097 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:34:00,105 - LOW - Anomalous network flow detected (score: 0.059)
+2026-02-04 22:34:01,106 - LOW - Anomalous network flow detected (score: 0.060)
+2026-02-04 22:34:01,760 - MEDIUM - High flow creation rate detected: 133 flows in 3s
+2026-02-04 22:34:06,132 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:07,132 - HIGH - TCP connect port scan detected: 8 unique ports in 5s
+2026-02-04 22:34:08,138 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:34:13,304 - MEDIUM - High flow creation rate detected: 84 flows in 3s
+2026-02-04 22:34:23,329 - MEDIUM - High flow creation rate detected: 118 flows in 3s
+2026-02-04 22:34:26,215 - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-04 22:34:31,247 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:34:31,249 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:34:33,365 - MEDIUM - High flow creation rate detected: 123 flows in 3s
+2026-02-04 22:34:34,262 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:38,296 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-04 22:34:39,302 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:44,489 - MEDIUM - High flow creation rate detected: 109 flows in 3s
+2026-02-04 22:34:45,328 - HIGH - TCP connect port scan detected: 7 unique ports in 5s
+2026-02-04 22:34:48,345 - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:34:54,640 - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-04 22:35:04,643 - MEDIUM - High flow creation rate detected: 47 flows in 3s
+2026-02-04 22:35:05,431 - HIGH - TCP connect port scan detected: 26 unique ports in 5s
+2026-02-04 22:35:08,452 - HIGH - SYN stealth scan detected: 29 SYN packets without ACK in 5s
+2026-02-04 22:35:15,818 - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:35:25,966 - MEDIUM - High flow creation rate detected: 48 flows in 3s
+2026-02-04 22:35:26,580 - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:35:29,596 - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:35:41,676 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-04 22:42:21,355 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:35,371 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:48,623 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:59,761 - MEDIUM - High flow creation rate detected: 24 flows in 3s
+2026-02-04 22:43:09,766 - MEDIUM - High flow creation rate detected: 105 flows in 3s
+2026-02-05 17:33:57,144 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:07,308 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:17,356 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:28,607 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:38,653 - MEDIUM - High flow creation rate detected: 102 flows in 3s
+2026-02-05 17:34:38,876 - LOW - Anomalous network flow detected (score: 0.047)
+2026-02-05 17:34:45,890 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:34:45,892 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:34:48,721 - MEDIUM - High flow creation rate detected: 135 flows in 3s
+2026-02-05 17:34:52,030 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:34:55,035 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:34:57,051 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:34:57,893 - MEDIUM - High flow creation rate detected: 144 flows in 3s
+2026-02-05 17:35:04,094 - MEDIUM - High packet rate detected: 450 packets/3s
+2026-02-05 17:35:07,924 - MEDIUM - High flow creation rate detected: 269 flows in 3s
+2026-02-05 17:35:13,169 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:15,181 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:35:17,196 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:18,052 - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-05 17:35:27,317 - MEDIUM - High flow creation rate detected: 122 flows in 3s
+2026-02-05 17:35:32,470 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 17:35:35,488 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:35,492 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:35:37,472 - MEDIUM - High flow creation rate detected: 31 flows in 3s
+2026-02-05 17:35:39,508 - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-05 17:51:00,659 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:51:10,660 - MEDIUM - High flow creation rate detected: 49 flows in 3s
+2026-02-05 17:51:17,668 - HIGH - TCP connect port scan detected: 30 unique ports in 5s
+2026-02-05 17:51:17,668 - HIGH - SYN stealth scan detected: 30 SYN packets without ACK in 5s
+2026-02-05 17:51:20,010 - MEDIUM - High flow creation rate detected: 39 flows in 3s
+2026-02-05 17:51:32,827 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 17:52:32,758 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:52:45,670 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:52:55,884 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:53:06,047 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:53:12,020 - LOW - Anomalous network flow detected (score: 0.017)
+2026-02-05 17:53:16,105 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:16,113 - MEDIUM - High flow creation rate detected: 117 flows in 3s
+2026-02-05 17:53:25,439 - MEDIUM - High flow creation rate detected: 133 flows in 3s
+2026-02-05 17:53:29,652 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:30,725 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 17:53:30,727 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:32,768 - LOW - Anomalous network flow detected (score: 0.012)
+2026-02-05 17:53:35,502 - MEDIUM - High flow creation rate detected: 86 flows in 3s
+2026-02-05 17:53:39,839 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:45,505 - MEDIUM - High flow creation rate detected: 87 flows in 3s
+2026-02-05 17:53:45,970 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:53:50,032 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:53:54,652 - MEDIUM - High flow creation rate detected: 131 flows in 3s
+2026-02-05 17:53:57,293 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:53:58,311 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:54:02,423 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:54:04,477 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:54:04,709 - MEDIUM - High flow creation rate detected: 177 flows in 3s
+2026-02-05 18:02:16,904 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:02:26,961 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:02:37,052 - MEDIUM - High flow creation rate detected: 113 flows in 3s
+2026-02-05 18:02:47,150 - MEDIUM - High flow creation rate detected: 96 flows in 3s
+2026-02-05 18:02:47,921 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 18:02:53,258 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:02:53,261 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:02:56,671 - MEDIUM - High flow creation rate detected: 109 flows in 3s
+2026-02-05 18:03:02,460 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:03:03,482 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:06,705 - MEDIUM - High flow creation rate detected: 100 flows in 3s
+2026-02-05 18:03:07,573 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:15,741 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:03:16,819 - MEDIUM - High flow creation rate detected: 106 flows in 3s
+2026-02-05 18:03:23,100 - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:26,076 - MEDIUM - High flow creation rate detected: 123 flows in 3s
+2026-02-05 18:03:31,255 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:03:32,294 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:03:34,349 - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-05 18:03:36,193 - MEDIUM - High flow creation rate detected: 25 flows in 3s
+2026-02-05 18:03:37,438 - HIGH - SYN stealth scan detected: 25 SYN packets without ACK in 5s
+2026-02-05 18:03:46,212 - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-05 18:03:52,026 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:03:54,051 - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-05 18:03:55,436 - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-05 18:03:57,118 - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-05 18:04:05,457 - MEDIUM - High flow creation rate detected: 47 flows in 3s
+2026-02-05 18:04:14,573 - HIGH - TCP connect port scan detected: 27 unique ports in 5s
+2026-02-05 18:04:15,466 - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-05 18:04:17,666 - HIGH - SYN stealth scan detected: 29 SYN packets without ACK in 5s
+2026-02-05 18:05:33,116 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:06:35,051 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:07:32,751 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:09:33,374 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:11:33,135 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:13:32,938 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:14:03,980 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:14:20,305 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:14:22,351 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:15:32,248 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:17:32,456 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:19:33,465 - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-05 18:21:31,626 - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-05 18:21:32,650 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:23:32,845 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:25:32,251 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:27:17,953 - LOW - Anomalous network flow detected (score: 0.060)
+2026-02-05 18:27:32,526 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:28:40,896 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:29:02,038 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,051 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,052 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,054 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,451 - LOW - Anomalous network flow detected (score: 0.016)
+2026-02-05 18:29:32,929 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:31:33,057 - LOW - Anomalous network flow detected (score: 0.014)
+2026-02-05 18:33:32,594 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:35:33,017 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:36:16,089 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:37:32,488 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:39:33,470 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:41:32,545 - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:43:32,325 - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:43:48,493 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:50,516 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:50,518 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:51,526 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:44:38,072 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:44:48,133 - MEDIUM - High flow creation rate detected: 93 flows in 3s
+2026-02-05 18:44:58,200 - MEDIUM - High flow creation rate detected: 158 flows in 3s
+2026-02-05 18:45:09,422 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:45:14,201 - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:45:16,226 - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:45:20,273 - LOW - Anomalous network flow detected (score: 0.020)
+2026-02-05 19:29:00,253 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:32:36,358 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:34:00,094 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:35:39,851 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:37:36,456 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:43:29,768 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:27,868 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:40,538 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:50,538 - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:48:01,311 - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-05 19:48:04,199 - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:11,402 - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-05 19:48:17,206 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:21,534 - MEDIUM - High flow creation rate detected: 124 flows in 3s
+2026-02-05 19:48:25,223 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:27,230 - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:28,234 - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:48:30,245 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:48:31,542 - MEDIUM - High flow creation rate detected: 130 flows in 3s
+2026-02-05 19:48:34,260 - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:48:37,274 - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:39,285 - HIGH - TCP connect port scan detected: 8 unique ports in 5s
+2026-02-05 19:48:40,287 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:41,583 - MEDIUM - High flow creation rate detected: 108 flows in 3s
+2026-02-05 19:48:45,312 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:48:46,318 - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:51,685 - MEDIUM - High flow creation rate detected: 100 flows in 3s
+2026-02-05 19:48:59,385 - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:49:01,803 - MEDIUM - High flow creation rate detected: 114 flows in 3s
+2026-02-05 19:49:02,401 - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:49:04,410 - HIGH - TCP connect port scan detected: 7 unique ports in 5s
+2026-02-05 19:49:05,416 - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:49:09,432 - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-05 19:49:11,857 - MEDIUM - High flow creation rate detected: 52 flows in 3s
+2026-02-05 19:49:19,473 - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:49:20,478 - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:49:22,009 - MEDIUM - High flow creation rate detected: 19 flows in 3s
+2026-02-05 19:49:25,499 - HIGH - TCP connect port scan detected: 27 unique ports in 5s
+2026-02-05 19:49:29,527 - HIGH - SYN stealth scan detected: 30 SYN packets without ACK in 5s
+2026-02-05 19:49:32,319 - MEDIUM - High flow creation rate detected: 48 flows in 3s
+2026-02-05 19:49:42,470 - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-05 19:49:45,638 - HIGH - TCP connect port scan detected: 31 unique ports in 5s
+2026-02-05 19:49:49,668 - HIGH - SYN stealth scan detected: 32 SYN packets without ACK in 5s

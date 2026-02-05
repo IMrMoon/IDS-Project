@@ -1,0 +1,92 @@
+sniffer:
+  interface: "eth0"
+  promiscuous: true
+  bpf_filter: null
+  queue_maxsize: 5000
+  parse_payload_bytes_limit: 256
+
+flows:
+  inactivity_timeout_seconds: 30
+  max_active_flows: 20000
+  retention_max_finalized_flows: 50000
+
+rules:
+  port_scan_connect:
+    window_seconds: 10
+    unique_dst_ports_threshold: 20
+    min_packets_threshold: 25
+    cooldown_seconds: 30
+
+  syn_stealth:
+    window_seconds: 10
+    syn_without_ack_threshold: 50
+    cooldown_seconds: 30
+
+  tcp_flag_scans:
+    enable_xmas: true
+    enable_null: true
+
+  traffic_volume:
+    pps_per_src:
+      window_seconds: 5
+      threshold: 500
+      cooldown_seconds: 10
+
+    bps_per_src:
+      window_seconds: 5
+      threshold_bytes_per_sec: 5000000
+      cooldown_seconds: 10
+
+    new_flows_rate:
+      window_seconds: 5
+      threshold_flows_per_window: 800
+      cooldown_seconds: 10
+
+  payload_inspection:
+    enabled: false
+    protocols: ["HTTP", "FTP"]
+    patterns:
+      - "' OR '1'='1"
+      - "UNION SELECT"
+      - "../"
+      - "..\\"
+    max_scan_bytes: 512
+
+ml:
+  enabled: true
+  feature_list:
+    - "duration_seconds"
+    - "packets_total"
+    - "bytes_total"
+    - "packets_fwd"
+    - "packets_rev"
+    - "bytes_fwd"
+    - "bytes_rev"
+    - "bytes_per_packet"
+    - "syn_count"
+    - "fin_count"
+    - "rst_count"
+    - "syn_ratio"
+    - "rst_ratio"
+    - "interarrival_mean_ms"
+    - "interarrival_var_ms"
+  model_path: "data/model.joblib"
+  meta_path: "data/model_meta.json"
+  contamination: 0.02
+  # Default anomaly threshold.  This value is overridden
+  # automatically during training using the (1 - contamination)
+  # quantile of anomaly scores, but we keep a reasonable
+  # default here to avoid false positives when a model is not
+  # trained.
+  anomaly_threshold: 0.2
+  training:
+    enabled: true
+    max_flows: 5000
+    duration_seconds: 300
+    output_dataset_path: "data/training_flows.csv"
+
+alerts:
+  jsonl_path: "data/alerts.jsonl"
+  retention:
+    keep_last_n: 20000
+    keep_days: 30

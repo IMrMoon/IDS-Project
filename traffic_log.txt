@@ -1,0 +1,8 @@
+[traffic_profile] START 2026-02-05T19:47:27+02:00
+[traffic_profile] mode=test total=140s
+[traffic_profile] stages: quiet=35s -> medium=60s -> heavy=45s
+[traffic_profile] stage=quiet 35s
+[traffic_profile] stage=medium 60s (interval ~0.143s)
+[traffic_profile] stage=heavy 45s target_gateway=172.20.208.1 ports=1..250 interval=0.008s
+[traffic_profile] END   2026-02-05T19:49:49+02:00
+[traffic_profile] DURATION 142.6s

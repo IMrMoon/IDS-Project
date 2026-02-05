@@ -1,0 +1,839 @@
+2026-02-04 22:02:26,760 - src.detection.anomaly_engine - WARNING - Model file not found: data/model.joblib. ML detection disabled.
+2026-02-04 22:02:26,760 - src.main - INFO - Starting IDS...
+2026-02-04 22:02:26,760 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-04 22:02:26,761 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-04 22:02:26,763 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-04 22:02:33,136 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:02:37,588 - src.main - INFO - Stats: Captured=26, Processed=26, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-04 22:02:47,588 - src.main - INFO - Stats: Captured=26, Processed=26, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-04 22:02:57,589 - src.main - INFO - Stats: Captured=26, Processed=26, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-04 22:03:08,445 - src.main - INFO - Stats: Captured=28, Processed=28, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-04 22:03:12,117 - src.main - INFO - Received signal 2
+2026-02-04 22:03:12,122 - src.main - INFO - Stopping IDS...
+2026-02-04 22:03:12,122 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-04 22:03:12,469 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-04 22:03:14,470 - src.main - INFO - IDS stopped
+2026-02-04 22:21:33,895 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-04 22:21:33,895 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-04 22:21:33,896 - src.main - INFO - Starting IDS...
+2026-02-04 22:21:33,896 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-04 22:21:33,896 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-04 22:21:33,897 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-04 22:21:42,412 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:21:43,897 - src.main - INFO - Stats: Captured=17, Processed=17, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-04 22:21:54,384 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:21:54,840 - src.main - INFO - Stats: Captured=70, Processed=70, Dropped=0, ActiveFlows=4, Alerts=2
+2026-02-04 22:22:04,841 - src.main - INFO - Stats: Captured=112, Processed=112, Dropped=0, ActiveFlows=6, Alerts=2
+2026-02-04 22:22:07,552 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:22:14,841 - src.main - INFO - Stats: Captured=175, Processed=173, Dropped=0, ActiveFlows=9, Alerts=3
+2026-02-04 22:22:17,597 - alerts - INFO - MEDIUM - High flow creation rate detected: 22 flows in 3s
+2026-02-04 22:22:25,781 - src.main - INFO - Stats: Captured=482, Processed=480, Dropped=0, ActiveFlows=29, Alerts=4
+2026-02-04 22:22:25,802 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:28,614 - alerts - INFO - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-04 22:22:35,782 - src.main - INFO - Stats: Captured=829, Processed=827, Dropped=0, ActiveFlows=49, Alerts=6
+2026-02-04 22:22:35,811 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:38,814 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:38,853 - alerts - INFO - MEDIUM - High flow creation rate detected: 124 flows in 3s
+2026-02-04 22:22:42,835 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:45,782 - src.main - INFO - Stats: Captured=1269, Processed=1267, Dropped=0, ActiveFlows=64, Alerts=10
+2026-02-04 22:22:47,851 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:22:49,109 - alerts - INFO - MEDIUM - High flow creation rate detected: 89 flows in 3s
+2026-02-04 22:22:55,783 - src.main - INFO - Stats: Captured=1636, Processed=1632, Dropped=0, ActiveFlows=65, Alerts=12
+2026-02-04 22:22:59,849 - alerts - INFO - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-04 22:23:00,091 - alerts - INFO - MEDIUM - High flow creation rate detected: 114 flows in 3s
+2026-02-04 22:23:00,855 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:23:04,878 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:23:06,739 - src.main - INFO - Stats: Captured=2027, Processed=2023, Dropped=0, ActiveFlows=64, Alerts=16
+2026-02-04 22:23:09,901 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:23:10,115 - alerts - INFO - MEDIUM - High flow creation rate detected: 94 flows in 3s
+2026-02-04 22:23:16,739 - src.main - INFO - Stats: Captured=2358, Processed=2354, Dropped=0, ActiveFlows=60, Alerts=18
+2026-02-04 22:23:17,937 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:23:20,217 - alerts - INFO - MEDIUM - High flow creation rate detected: 20 flows in 3s
+2026-02-04 22:23:20,958 - alerts - INFO - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-04 22:23:26,739 - src.main - INFO - Stats: Captured=2481, Processed=2477, Dropped=0, ActiveFlows=86, Alerts=21
+2026-02-04 22:23:30,244 - alerts - INFO - MEDIUM - High flow creation rate detected: 46 flows in 3s
+2026-02-04 22:23:37,700 - src.main - INFO - Stats: Captured=2609, Processed=2603, Dropped=0, ActiveFlows=121, Alerts=22
+2026-02-04 22:23:38,990 - alerts - INFO - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:23:41,362 - alerts - INFO - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-04 22:23:42,006 - alerts - INFO - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:23:43,014 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:23:47,701 - src.main - INFO - Stats: Captured=2698, Processed=2692, Dropped=0, ActiveFlows=119, Alerts=26
+2026-02-04 22:23:51,517 - alerts - INFO - MEDIUM - High flow creation rate detected: 49 flows in 3s
+2026-02-04 22:23:57,701 - src.main - INFO - Stats: Captured=2816, Processed=2810, Dropped=0, ActiveFlows=121, Alerts=27
+2026-02-04 22:23:59,108 - alerts - INFO - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:24:00,116 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.063)
+2026-02-04 22:24:01,123 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.059)
+2026-02-04 22:24:01,827 - alerts - INFO - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:24:02,127 - alerts - INFO - HIGH - SYN stealth scan detected: 28 SYN packets without ACK in 5s
+2026-02-04 22:24:08,660 - src.main - INFO - Stats: Captured=2844, Processed=2838, Dropped=0, ActiveFlows=89, Alerts=32
+2026-02-04 22:24:18,660 - src.main - INFO - Stats: Captured=2856, Processed=2850, Dropped=0, ActiveFlows=31, Alerts=32
+2026-02-04 22:24:28,661 - src.main - INFO - Stats: Captured=2856, Processed=2850, Dropped=0, ActiveFlows=2, Alerts=32
+2026-02-04 22:24:39,652 - src.main - INFO - Stats: Captured=2858, Processed=2852, Dropped=0, ActiveFlows=1, Alerts=32
+2026-02-04 22:24:49,652 - src.main - INFO - Stats: Captured=2865, Processed=2855, Dropped=0, ActiveFlows=4, Alerts=32
+2026-02-04 22:24:59,653 - src.main - INFO - Stats: Captured=2866, Processed=2856, Dropped=0, ActiveFlows=3, Alerts=32
+2026-02-04 22:25:09,654 - src.main - INFO - Stats: Captured=2866, Processed=2856, Dropped=0, ActiveFlows=3, Alerts=32
+2026-02-04 22:25:10,280 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.041)
+2026-02-04 22:25:20,649 - src.main - INFO - Stats: Captured=2870, Processed=2860, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-04 22:25:30,650 - src.main - INFO - Stats: Captured=2872, Processed=2862, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-04 22:25:40,650 - src.main - INFO - Stats: Captured=2872, Processed=2862, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-04 22:25:42,292 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:25:51,609 - src.main - INFO - Stats: Captured=2878, Processed=2864, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:26:01,610 - src.main - INFO - Stats: Captured=2878, Processed=2864, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:26:11,610 - src.main - INFO - Stats: Captured=2886, Processed=2872, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-04 22:26:22,646 - src.main - INFO - Stats: Captured=2888, Processed=2874, Dropped=0, ActiveFlows=3, Alerts=34
+2026-02-04 22:26:32,647 - src.main - INFO - Stats: Captured=2890, Processed=2874, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:26:42,647 - src.main - INFO - Stats: Captured=2890, Processed=2874, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-04 22:26:53,641 - src.main - INFO - Stats: Captured=2892, Processed=2876, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:27:03,642 - src.main - INFO - Stats: Captured=2896, Processed=2876, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:27:13,643 - src.main - INFO - Stats: Captured=2896, Processed=2876, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-04 22:27:23,643 - src.main - INFO - Stats: Captured=2900, Processed=2880, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-04 22:27:34,671 - src.main - INFO - Stats: Captured=2903, Processed=2881, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-04 22:27:41,362 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-04 22:27:44,671 - src.main - INFO - Stats: Captured=2903, Processed=2881, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-04 22:27:45,911 - src.main - INFO - Received signal 2
+2026-02-04 22:27:45,995 - src.main - INFO - Stopping IDS...
+2026-02-04 22:27:45,995 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-04 22:27:46,605 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-04 22:27:48,606 - src.main - INFO - IDS stopped
+2026-02-04 22:33:05,016 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-04 22:33:05,017 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-04 22:33:05,017 - src.alerts.alerts - INFO - Loaded 35 alerts from data/alerts.jsonl
+2026-02-04 22:33:05,017 - src.main - INFO - Starting IDS...
+2026-02-04 22:33:05,017 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-04 22:33:05,018 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-04 22:33:05,019 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-04 22:33:06,865 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:33:15,019 - src.main - INFO - Stats: Captured=53, Processed=51, Dropped=0, ActiveFlows=3, Alerts=1
+2026-02-04 22:33:18,184 - alerts - INFO - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-04 22:33:25,019 - src.main - INFO - Stats: Captured=106, Processed=104, Dropped=0, ActiveFlows=7, Alerts=2
+2026-02-04 22:33:31,413 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:33:36,075 - src.main - INFO - Stats: Captured=162, Processed=160, Dropped=0, ActiveFlows=10, Alerts=3
+2026-02-04 22:33:41,428 - alerts - INFO - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:33:43,091 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-04 22:33:46,075 - src.main - INFO - Stats: Captured=267, Processed=265, Dropped=0, ActiveFlows=15, Alerts=5
+2026-02-04 22:33:51,467 - alerts - INFO - MEDIUM - High flow creation rate detected: 101 flows in 3s
+2026-02-04 22:33:52,097 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:33:56,076 - src.main - INFO - Stats: Captured=629, Processed=625, Dropped=0, ActiveFlows=34, Alerts=7
+2026-02-04 22:34:00,105 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.059)
+2026-02-04 22:34:01,106 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.060)
+2026-02-04 22:34:01,760 - alerts - INFO - MEDIUM - High flow creation rate detected: 133 flows in 3s
+2026-02-04 22:34:06,132 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:07,094 - src.main - INFO - Stats: Captured=1079, Processed=1075, Dropped=0, ActiveFlows=67, Alerts=11
+2026-02-04 22:34:07,132 - alerts - INFO - HIGH - TCP connect port scan detected: 8 unique ports in 5s
+2026-02-04 22:34:08,138 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-04 22:34:13,304 - alerts - INFO - MEDIUM - High flow creation rate detected: 84 flows in 3s
+2026-02-04 22:34:17,095 - src.main - INFO - Stats: Captured=1453, Processed=1449, Dropped=0, ActiveFlows=76, Alerts=14
+2026-02-04 22:34:23,329 - alerts - INFO - MEDIUM - High flow creation rate detected: 118 flows in 3s
+2026-02-04 22:34:26,215 - alerts - INFO - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-04 22:34:27,095 - src.main - INFO - Stats: Captured=1806, Processed=1802, Dropped=0, ActiveFlows=67, Alerts=16
+2026-02-04 22:34:31,247 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:34:31,249 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-04 22:34:33,365 - alerts - INFO - MEDIUM - High flow creation rate detected: 123 flows in 3s
+2026-02-04 22:34:34,262 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:38,120 - src.main - INFO - Stats: Captured=2214, Processed=2208, Dropped=0, ActiveFlows=69, Alerts=20
+2026-02-04 22:34:38,296 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-04 22:34:39,302 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-04 22:34:44,489 - alerts - INFO - MEDIUM - High flow creation rate detected: 109 flows in 3s
+2026-02-04 22:34:45,328 - alerts - INFO - HIGH - TCP connect port scan detected: 7 unique ports in 5s
+2026-02-04 22:34:48,120 - src.main - INFO - Stats: Captured=2473, Processed=2467, Dropped=0, ActiveFlows=79, Alerts=24
+2026-02-04 22:34:48,345 - alerts - INFO - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:34:54,640 - alerts - INFO - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-04 22:34:58,121 - src.main - INFO - Stats: Captured=2558, Processed=2552, Dropped=0, ActiveFlows=99, Alerts=26
+2026-02-04 22:35:04,643 - alerts - INFO - MEDIUM - High flow creation rate detected: 47 flows in 3s
+2026-02-04 22:35:05,431 - alerts - INFO - HIGH - TCP connect port scan detected: 26 unique ports in 5s
+2026-02-04 22:35:08,122 - src.main - INFO - Stats: Captured=2643, Processed=2637, Dropped=0, ActiveFlows=116, Alerts=28
+2026-02-04 22:35:08,452 - alerts - INFO - HIGH - SYN stealth scan detected: 29 SYN packets without ACK in 5s
+2026-02-04 22:35:15,818 - alerts - INFO - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-04 22:35:19,147 - src.main - INFO - Stats: Captured=2762, Processed=2756, Dropped=0, ActiveFlows=119, Alerts=30
+2026-02-04 22:35:25,966 - alerts - INFO - MEDIUM - High flow creation rate detected: 48 flows in 3s
+2026-02-04 22:35:26,580 - alerts - INFO - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-04 22:35:29,148 - src.main - INFO - Stats: Captured=2854, Processed=2848, Dropped=0, ActiveFlows=124, Alerts=32
+2026-02-04 22:35:29,596 - alerts - INFO - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-04 22:35:39,148 - src.main - INFO - Stats: Captured=2855, Processed=2849, Dropped=0, ActiveFlows=67, Alerts=33
+2026-02-04 22:35:41,676 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-04 22:35:50,287 - src.main - INFO - Stats: Captured=2857, Processed=2851, Dropped=0, ActiveFlows=5, Alerts=34
+2026-02-04 22:36:00,287 - src.main - INFO - Stats: Captured=2857, Processed=2851, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:36:10,288 - src.main - INFO - Stats: Captured=2857, Processed=2851, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-04 22:36:21,212 - src.main - INFO - Stats: Captured=2871, Processed=2865, Dropped=0, ActiveFlows=3, Alerts=34
+2026-02-04 22:36:31,212 - src.main - INFO - Stats: Captured=2873, Processed=2865, Dropped=0, ActiveFlows=3, Alerts=34
+2026-02-04 22:36:41,212 - src.main - INFO - Stats: Captured=2873, Processed=2865, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-04 22:36:52,241 - src.main - INFO - Stats: Captured=2875, Processed=2867, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:37:02,242 - src.main - INFO - Stats: Captured=2879, Processed=2867, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:37:12,242 - src.main - INFO - Stats: Captured=2879, Processed=2867, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-04 22:37:20,456 - src.main - INFO - Received signal 2
+2026-02-04 22:37:20,539 - src.main - INFO - Stopping IDS...
+2026-02-04 22:37:20,540 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-04 22:37:21,508 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-04 22:37:22,242 - src.main - INFO - Stats: Captured=2883, Processed=2870, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-04 22:37:22,243 - src.main - INFO - IDS stopped
+2026-02-04 22:42:16,005 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-04 22:42:16,005 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-04 22:42:16,006 - src.alerts.alerts - INFO - Loaded 69 alerts from data/alerts.jsonl
+2026-02-04 22:42:16,006 - src.main - INFO - Starting IDS...
+2026-02-04 22:42:16,006 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-04 22:42:16,006 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-04 22:42:16,007 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-04 22:42:21,355 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:27,044 - src.main - INFO - Stats: Captured=39, Processed=37, Dropped=0, ActiveFlows=5, Alerts=1
+2026-02-04 22:42:35,371 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:37,045 - src.main - INFO - Stats: Captured=89, Processed=87, Dropped=0, ActiveFlows=8, Alerts=2
+2026-02-04 22:42:47,045 - src.main - INFO - Stats: Captured=131, Processed=129, Dropped=0, ActiveFlows=6, Alerts=2
+2026-02-04 22:42:48,623 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-04 22:42:58,091 - src.main - INFO - Stats: Captured=188, Processed=186, Dropped=0, ActiveFlows=7, Alerts=3
+2026-02-04 22:42:59,761 - alerts - INFO - MEDIUM - High flow creation rate detected: 24 flows in 3s
+2026-02-04 22:43:08,092 - src.main - INFO - Stats: Captured=496, Processed=494, Dropped=0, ActiveFlows=29, Alerts=4
+2026-02-04 22:43:09,766 - alerts - INFO - MEDIUM - High flow creation rate detected: 105 flows in 3s
+2026-02-04 22:43:11,828 - src.main - INFO - Received signal 2
+2026-02-04 22:43:11,892 - src.main - INFO - Stopping IDS...
+2026-02-04 22:43:11,892 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-04 22:43:12,343 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-04 22:43:14,343 - src.main - INFO - IDS stopped
+2026-02-05 17:33:36,595 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 17:33:36,596 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 17:33:36,597 - src.alerts.alerts - INFO - Loaded 74 alerts from data/alerts.jsonl
+2026-02-05 17:33:36,597 - src.main - INFO - Starting IDS...
+2026-02-05 17:33:36,597 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 17:33:36,597 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 17:33:36,599 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 17:33:46,635 - src.main - INFO - Stats: Captured=4, Processed=2, Dropped=0, ActiveFlows=2, Alerts=0
+2026-02-05 17:33:56,666 - src.main - INFO - Stats: Captured=4, Processed=2, Dropped=0, ActiveFlows=2, Alerts=0
+2026-02-05 17:33:57,144 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:06,667 - src.main - INFO - Stats: Captured=64, Processed=62, Dropped=0, ActiveFlows=4, Alerts=1
+2026-02-05 17:34:07,308 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:16,699 - src.main - INFO - Stats: Captured=128, Processed=126, Dropped=0, ActiveFlows=7, Alerts=2
+2026-02-05 17:34:17,356 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:25,560 - src.main - INFO - Stats: Captured=181, Processed=177, Dropped=0, ActiveFlows=8, Alerts=3
+2026-02-05 17:34:28,607 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:34:35,569 - src.main - INFO - Stats: Captured=232, Processed=228, Dropped=0, ActiveFlows=10, Alerts=4
+2026-02-05 17:34:38,653 - alerts - INFO - MEDIUM - High flow creation rate detected: 102 flows in 3s
+2026-02-05 17:34:38,876 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.047)
+2026-02-05 17:34:45,569 - src.main - INFO - Stats: Captured=606, Processed=602, Dropped=0, ActiveFlows=39, Alerts=6
+2026-02-05 17:34:45,890 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:34:45,892 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:34:48,721 - alerts - INFO - MEDIUM - High flow creation rate detected: 135 flows in 3s
+2026-02-05 17:34:52,030 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:34:54,697 - src.main - INFO - Stats: Captured=1004, Processed=1000, Dropped=0, ActiveFlows=73, Alerts=10
+2026-02-05 17:34:55,035 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:34:57,051 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:34:57,893 - alerts - INFO - MEDIUM - High flow creation rate detected: 144 flows in 3s
+2026-02-05 17:35:04,094 - alerts - INFO - MEDIUM - High packet rate detected: 450 packets/3s
+2026-02-05 17:35:04,700 - src.main - INFO - Stats: Captured=3444, Processed=3437, Dropped=0, ActiveFlows=78, Alerts=14
+2026-02-05 17:35:07,924 - alerts - INFO - MEDIUM - High flow creation rate detected: 269 flows in 3s
+2026-02-05 17:35:13,169 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:14,703 - src.main - INFO - Stats: Captured=4465, Processed=4459, Dropped=0, ActiveFlows=73, Alerts=16
+2026-02-05 17:35:15,181 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:35:17,196 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:18,052 - alerts - INFO - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-05 17:35:23,842 - src.main - INFO - Stats: Captured=4893, Processed=4887, Dropped=0, ActiveFlows=68, Alerts=19
+2026-02-05 17:35:27,317 - alerts - INFO - MEDIUM - High flow creation rate detected: 122 flows in 3s
+2026-02-05 17:35:32,470 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 17:35:33,843 - src.main - INFO - Stats: Captured=5251, Processed=5245, Dropped=0, ActiveFlows=60, Alerts=21
+2026-02-05 17:35:35,488 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:35:35,492 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:35:37,472 - alerts - INFO - MEDIUM - High flow creation rate detected: 31 flows in 3s
+2026-02-05 17:35:39,454 - src.main - INFO - Received signal 2
+2026-02-05 17:35:39,508 - alerts - INFO - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-05 17:35:39,554 - src.main - INFO - Stopping IDS...
+2026-02-05 17:35:39,555 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 17:35:39,968 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 17:35:41,968 - src.main - INFO - IDS stopped
+2026-02-05 17:50:58,350 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 17:50:58,352 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 17:50:58,352 - src.alerts.alerts - INFO - Loaded 99 alerts from data/alerts.jsonl
+2026-02-05 17:50:58,352 - src.main - INFO - Starting IDS...
+2026-02-05 17:50:58,353 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 17:50:58,353 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 17:50:58,354 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 17:51:00,659 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:51:08,356 - src.main - INFO - Stats: Captured=88, Processed=88, Dropped=0, ActiveFlows=59, Alerts=1
+2026-02-05 17:51:10,660 - alerts - INFO - MEDIUM - High flow creation rate detected: 49 flows in 3s
+2026-02-05 17:51:17,610 - src.main - INFO - Stats: Captured=187, Processed=187, Dropped=0, ActiveFlows=122, Alerts=2
+2026-02-05 17:51:17,668 - alerts - INFO - HIGH - TCP connect port scan detected: 30 unique ports in 5s
+2026-02-05 17:51:17,668 - alerts - INFO - HIGH - SYN stealth scan detected: 30 SYN packets without ACK in 5s
+2026-02-05 17:51:20,010 - alerts - INFO - MEDIUM - High flow creation rate detected: 39 flows in 3s
+2026-02-05 17:51:27,624 - src.main - INFO - Stats: Captured=327, Processed=325, Dropped=0, ActiveFlows=128, Alerts=5
+2026-02-05 17:51:32,827 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 17:51:37,638 - src.main - INFO - Stats: Captured=330, Processed=328, Dropped=0, ActiveFlows=69, Alerts=6
+2026-02-05 17:51:42,872 - src.main - INFO - Received signal 2
+2026-02-05 17:51:42,956 - src.main - INFO - Stopping IDS...
+2026-02-05 17:51:42,956 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 17:51:43,469 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 17:51:45,530 - src.main - INFO - IDS stopped
+2026-02-05 17:52:27,906 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 17:52:27,907 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 17:52:27,907 - src.alerts.alerts - INFO - Loaded 105 alerts from data/alerts.jsonl
+2026-02-05 17:52:27,908 - src.main - INFO - Starting IDS...
+2026-02-05 17:52:27,908 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 17:52:27,908 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 17:52:27,909 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 17:52:32,758 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:52:37,915 - src.main - INFO - Stats: Captured=39, Processed=39, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-05 17:52:45,670 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:52:47,918 - src.main - INFO - Stats: Captured=90, Processed=88, Dropped=0, ActiveFlows=5, Alerts=2
+2026-02-05 17:52:55,884 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:52:57,176 - src.main - INFO - Stats: Captured=137, Processed=135, Dropped=0, ActiveFlows=13, Alerts=3
+2026-02-05 17:53:06,047 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 17:53:07,176 - src.main - INFO - Stats: Captured=190, Processed=188, Dropped=0, ActiveFlows=13, Alerts=4
+2026-02-05 17:53:12,020 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.017)
+2026-02-05 17:53:16,105 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:16,113 - alerts - INFO - MEDIUM - High flow creation rate detected: 117 flows in 3s
+2026-02-05 17:53:17,177 - src.main - INFO - Stats: Captured=520, Processed=518, Dropped=0, ActiveFlows=28, Alerts=7
+2026-02-05 17:53:25,439 - alerts - INFO - MEDIUM - High flow creation rate detected: 133 flows in 3s
+2026-02-05 17:53:26,447 - src.main - INFO - Stats: Captured=915, Processed=911, Dropped=0, ActiveFlows=58, Alerts=8
+2026-02-05 17:53:29,652 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:30,725 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 17:53:30,727 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:32,768 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.012)
+2026-02-05 17:53:35,502 - alerts - INFO - MEDIUM - High flow creation rate detected: 86 flows in 3s
+2026-02-05 17:53:36,449 - src.main - INFO - Stats: Captured=1223, Processed=1219, Dropped=0, ActiveFlows=62, Alerts=13
+2026-02-05 17:53:39,839 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:53:45,505 - alerts - INFO - MEDIUM - High flow creation rate detected: 87 flows in 3s
+2026-02-05 17:53:45,970 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:53:46,450 - src.main - INFO - Stats: Captured=1606, Processed=1602, Dropped=0, ActiveFlows=58, Alerts=16
+2026-02-05 17:53:50,032 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:53:54,652 - alerts - INFO - MEDIUM - High flow creation rate detected: 131 flows in 3s
+2026-02-05 17:53:55,573 - src.main - INFO - Stats: Captured=2049, Processed=2045, Dropped=0, ActiveFlows=69, Alerts=18
+2026-02-05 17:53:57,293 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 17:53:58,311 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:54:02,423 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 17:54:04,477 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 17:54:04,709 - alerts - INFO - MEDIUM - High flow creation rate detected: 177 flows in 3s
+2026-02-05 17:54:05,577 - src.main - INFO - Stats: Captured=2502, Processed=2496, Dropped=0, ActiveFlows=69, Alerts=23
+2026-02-05 17:54:11,892 - src.main - INFO - Received signal 2
+2026-02-05 17:54:11,918 - src.main - INFO - Stopping IDS...
+2026-02-05 17:54:11,918 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 17:54:13,013 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 17:54:15,024 - src.main - INFO - IDS stopped
+2026-02-05 18:02:16,338 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 18:02:16,338 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 18:02:16,339 - src.alerts.alerts - INFO - Loaded 128 alerts from data/alerts.jsonl
+2026-02-05 18:02:16,340 - src.main - INFO - Starting IDS...
+2026-02-05 18:02:16,340 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 18:02:16,340 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 18:02:16,342 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 18:02:16,904 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:02:26,342 - src.main - INFO - Stats: Captured=56, Processed=56, Dropped=0, ActiveFlows=3, Alerts=1
+2026-02-05 18:02:26,961 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:02:36,346 - src.main - INFO - Stats: Captured=211, Processed=211, Dropped=0, ActiveFlows=15, Alerts=2
+2026-02-05 18:02:37,052 - alerts - INFO - MEDIUM - High flow creation rate detected: 113 flows in 3s
+2026-02-05 18:02:46,350 - src.main - INFO - Stats: Captured=577, Processed=575, Dropped=0, ActiveFlows=44, Alerts=3
+2026-02-05 18:02:47,150 - alerts - INFO - MEDIUM - High flow creation rate detected: 96 flows in 3s
+2026-02-05 18:02:47,921 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 18:02:53,258 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:02:53,261 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:02:55,581 - src.main - INFO - Stats: Captured=949, Processed=947, Dropped=0, ActiveFlows=67, Alerts=7
+2026-02-05 18:02:56,671 - alerts - INFO - MEDIUM - High flow creation rate detected: 109 flows in 3s
+2026-02-05 18:03:02,460 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:03:03,482 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:05,589 - src.main - INFO - Stats: Captured=1300, Processed=1298, Dropped=0, ActiveFlows=59, Alerts=10
+2026-02-05 18:03:06,705 - alerts - INFO - MEDIUM - High flow creation rate detected: 100 flows in 3s
+2026-02-05 18:03:07,573 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:15,597 - src.main - INFO - Stats: Captured=1662, Processed=1660, Dropped=0, ActiveFlows=60, Alerts=12
+2026-02-05 18:03:15,741 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:03:16,819 - alerts - INFO - MEDIUM - High flow creation rate detected: 106 flows in 3s
+2026-02-05 18:03:23,100 - alerts - INFO - HIGH - TCP connect port scan detected: 4 unique ports in 5s
+2026-02-05 18:03:24,815 - src.main - INFO - Stats: Captured=2057, Processed=2053, Dropped=0, ActiveFlows=67, Alerts=15
+2026-02-05 18:03:26,076 - alerts - INFO - MEDIUM - High flow creation rate detected: 123 flows in 3s
+2026-02-05 18:03:31,255 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 18:03:32,294 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:03:34,349 - alerts - INFO - HIGH - TCP connect port scan detected: 6 unique ports in 5s
+2026-02-05 18:03:34,818 - src.main - INFO - Stats: Captured=2359, Processed=2355, Dropped=0, ActiveFlows=70, Alerts=19
+2026-02-05 18:03:36,193 - alerts - INFO - MEDIUM - High flow creation rate detected: 25 flows in 3s
+2026-02-05 18:03:37,438 - alerts - INFO - HIGH - SYN stealth scan detected: 25 SYN packets without ACK in 5s
+2026-02-05 18:03:44,831 - src.main - INFO - Stats: Captured=2444, Processed=2440, Dropped=0, ActiveFlows=93, Alerts=21
+2026-02-05 18:03:46,212 - alerts - INFO - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-05 18:03:52,026 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:03:54,051 - alerts - INFO - HIGH - TCP connect port scan detected: 29 unique ports in 5s
+2026-02-05 18:03:54,059 - src.main - INFO - Stats: Captured=2564, Processed=2558, Dropped=0, ActiveFlows=115, Alerts=24
+2026-02-05 18:03:55,436 - alerts - INFO - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-05 18:03:57,118 - alerts - INFO - HIGH - SYN stealth scan detected: 27 SYN packets without ACK in 5s
+2026-02-05 18:04:04,071 - src.main - INFO - Stats: Captured=2649, Processed=2643, Dropped=0, ActiveFlows=120, Alerts=26
+2026-02-05 18:04:05,457 - alerts - INFO - MEDIUM - High flow creation rate detected: 47 flows in 3s
+2026-02-05 18:04:14,099 - src.main - INFO - Stats: Captured=2765, Processed=2759, Dropped=0, ActiveFlows=116, Alerts=27
+2026-02-05 18:04:14,573 - alerts - INFO - HIGH - TCP connect port scan detected: 27 unique ports in 5s
+2026-02-05 18:04:15,466 - alerts - INFO - MEDIUM - High flow creation rate detected: 17 flows in 3s
+2026-02-05 18:04:17,666 - alerts - INFO - HIGH - SYN stealth scan detected: 29 SYN packets without ACK in 5s
+2026-02-05 18:04:23,344 - src.main - INFO - Stats: Captured=2795, Processed=2787, Dropped=0, ActiveFlows=86, Alerts=30
+2026-02-05 18:04:33,349 - src.main - INFO - Stats: Captured=2797, Processed=2787, Dropped=0, ActiveFlows=27, Alerts=30
+2026-02-05 18:04:43,355 - src.main - INFO - Stats: Captured=2797, Processed=2787, Dropped=0, ActiveFlows=0, Alerts=30
+2026-02-05 18:04:53,355 - src.main - INFO - Stats: Captured=2797, Processed=2787, Dropped=0, ActiveFlows=0, Alerts=30
+2026-02-05 18:05:02,583 - src.main - INFO - Stats: Captured=2801, Processed=2789, Dropped=0, ActiveFlows=1, Alerts=30
+2026-02-05 18:05:12,585 - src.main - INFO - Stats: Captured=2804, Processed=2792, Dropped=0, ActiveFlows=2, Alerts=30
+2026-02-05 18:05:22,590 - src.main - INFO - Stats: Captured=2806, Processed=2794, Dropped=0, ActiveFlows=2, Alerts=30
+2026-02-05 18:05:31,821 - src.main - INFO - Stats: Captured=2812, Processed=2796, Dropped=0, ActiveFlows=3, Alerts=30
+2026-02-05 18:05:33,116 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:05:41,825 - src.main - INFO - Stats: Captured=2812, Processed=2796, Dropped=0, ActiveFlows=1, Alerts=31
+2026-02-05 18:05:51,830 - src.main - INFO - Stats: Captured=2812, Processed=2796, Dropped=0, ActiveFlows=0, Alerts=31
+2026-02-05 18:06:01,061 - src.main - INFO - Stats: Captured=2815, Processed=2799, Dropped=0, ActiveFlows=2, Alerts=31
+2026-02-05 18:06:11,065 - src.main - INFO - Stats: Captured=2817, Processed=2799, Dropped=0, ActiveFlows=2, Alerts=31
+2026-02-05 18:06:21,066 - src.main - INFO - Stats: Captured=2818, Processed=2800, Dropped=0, ActiveFlows=1, Alerts=31
+2026-02-05 18:06:30,298 - src.main - INFO - Stats: Captured=2820, Processed=2802, Dropped=0, ActiveFlows=2, Alerts=31
+2026-02-05 18:06:35,051 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:06:40,344 - src.main - INFO - Stats: Captured=2841, Processed=2822, Dropped=0, ActiveFlows=3, Alerts=32
+2026-02-05 18:06:50,384 - src.main - INFO - Stats: Captured=2841, Processed=2822, Dropped=0, ActiveFlows=2, Alerts=32
+2026-02-05 18:06:59,624 - src.main - INFO - Stats: Captured=2843, Processed=2824, Dropped=0, ActiveFlows=1, Alerts=32
+2026-02-05 18:07:09,658 - src.main - INFO - Stats: Captured=2846, Processed=2825, Dropped=0, ActiveFlows=2, Alerts=32
+2026-02-05 18:07:19,687 - src.main - INFO - Stats: Captured=2849, Processed=2828, Dropped=0, ActiveFlows=1, Alerts=32
+2026-02-05 18:07:29,706 - src.main - INFO - Stats: Captured=2850, Processed=2829, Dropped=0, ActiveFlows=2, Alerts=32
+2026-02-05 18:07:32,751 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:07:39,033 - src.main - INFO - Stats: Captured=2854, Processed=2831, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-05 18:07:49,143 - src.main - INFO - Stats: Captured=2854, Processed=2831, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:07:59,245 - src.main - INFO - Stats: Captured=2854, Processed=2831, Dropped=0, ActiveFlows=0, Alerts=33
+2026-02-05 18:08:08,505 - src.main - INFO - Stats: Captured=2858, Processed=2833, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:08:18,506 - src.main - INFO - Stats: Captured=2858, Processed=2833, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:08:28,552 - src.main - INFO - Stats: Captured=2859, Processed=2834, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:08:37,885 - src.main - INFO - Stats: Captured=2861, Processed=2836, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-05 18:08:47,973 - src.main - INFO - Stats: Captured=2865, Processed=2836, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:08:58,057 - src.main - INFO - Stats: Captured=2865, Processed=2836, Dropped=0, ActiveFlows=0, Alerts=33
+2026-02-05 18:09:07,294 - src.main - INFO - Stats: Captured=2866, Processed=2837, Dropped=0, ActiveFlows=1, Alerts=33
+2026-02-05 18:09:17,296 - src.main - INFO - Stats: Captured=2872, Processed=2841, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-05 18:09:27,299 - src.main - INFO - Stats: Captured=2873, Processed=2842, Dropped=0, ActiveFlows=2, Alerts=33
+2026-02-05 18:09:33,374 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:09:37,304 - src.main - INFO - Stats: Captured=2874, Processed=2843, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-05 18:09:46,543 - src.main - INFO - Stats: Captured=2879, Processed=2844, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:09:56,544 - src.main - INFO - Stats: Captured=2879, Processed=2844, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:10:06,545 - src.main - INFO - Stats: Captured=2879, Processed=2844, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-05 18:10:15,783 - src.main - INFO - Stats: Captured=2883, Processed=2846, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:10:25,787 - src.main - INFO - Stats: Captured=2884, Processed=2847, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-05 18:10:35,795 - src.main - INFO - Stats: Captured=2884, Processed=2847, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:10:45,060 - src.main - INFO - Stats: Captured=2890, Processed=2849, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:10:55,087 - src.main - INFO - Stats: Captured=2890, Processed=2849, Dropped=0, ActiveFlows=1, Alerts=34
+2026-02-05 18:11:05,123 - src.main - INFO - Stats: Captured=2890, Processed=2849, Dropped=0, ActiveFlows=0, Alerts=34
+2026-02-05 18:11:14,374 - src.main - INFO - Stats: Captured=2896, Processed=2855, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-05 18:11:24,380 - src.main - INFO - Stats: Captured=2898, Processed=2855, Dropped=0, ActiveFlows=2, Alerts=34
+2026-02-05 18:11:33,135 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:11:34,384 - src.main - INFO - Stats: Captured=2899, Processed=2856, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:11:43,652 - src.main - INFO - Stats: Captured=2900, Processed=2857, Dropped=0, ActiveFlows=2, Alerts=35
+2026-02-05 18:11:53,698 - src.main - INFO - Stats: Captured=2902, Processed=2857, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:12:03,699 - src.main - INFO - Stats: Captured=2902, Processed=2857, Dropped=0, ActiveFlows=0, Alerts=35
+2026-02-05 18:12:13,737 - src.main - INFO - Stats: Captured=2902, Processed=2857, Dropped=0, ActiveFlows=0, Alerts=35
+2026-02-05 18:12:23,000 - src.main - INFO - Stats: Captured=2906, Processed=2859, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:12:33,206 - src.main - INFO - Stats: Captured=2907, Processed=2860, Dropped=0, ActiveFlows=2, Alerts=35
+2026-02-05 18:12:43,426 - src.main - INFO - Stats: Captured=2907, Processed=2860, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:12:52,840 - src.main - INFO - Stats: Captured=2910, Processed=2861, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:13:02,865 - src.main - INFO - Stats: Captured=2910, Processed=2861, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:13:12,887 - src.main - INFO - Stats: Captured=2912, Processed=2863, Dropped=0, ActiveFlows=1, Alerts=35
+2026-02-05 18:13:22,262 - src.main - INFO - Stats: Captured=2916, Processed=2865, Dropped=0, ActiveFlows=2, Alerts=35
+2026-02-05 18:13:32,327 - src.main - INFO - Stats: Captured=2917, Processed=2866, Dropped=0, ActiveFlows=3, Alerts=35
+2026-02-05 18:13:32,938 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:13:42,353 - src.main - INFO - Stats: Captured=2917, Processed=2866, Dropped=0, ActiveFlows=1, Alerts=36
+2026-02-05 18:13:51,610 - src.main - INFO - Stats: Captured=2919, Processed=2868, Dropped=0, ActiveFlows=1, Alerts=36
+2026-02-05 18:14:01,610 - src.main - INFO - Stats: Captured=2924, Processed=2871, Dropped=0, ActiveFlows=3, Alerts=36
+2026-02-05 18:14:03,980 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:14:11,613 - src.main - INFO - Stats: Captured=2944, Processed=2891, Dropped=0, ActiveFlows=5, Alerts=37
+2026-02-05 18:14:20,305 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:14:20,887 - src.main - INFO - Stats: Captured=2946, Processed=2893, Dropped=0, ActiveFlows=5, Alerts=38
+2026-02-05 18:14:22,351 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:14:30,888 - src.main - INFO - Stats: Captured=2947, Processed=2894, Dropped=0, ActiveFlows=2, Alerts=39
+2026-02-05 18:14:40,889 - src.main - INFO - Stats: Captured=2947, Processed=2894, Dropped=0, ActiveFlows=1, Alerts=39
+2026-02-05 18:14:50,891 - src.main - INFO - Stats: Captured=2947, Processed=2894, Dropped=0, ActiveFlows=0, Alerts=39
+2026-02-05 18:15:00,169 - src.main - INFO - Stats: Captured=2953, Processed=2896, Dropped=0, ActiveFlows=1, Alerts=39
+2026-02-05 18:15:10,173 - src.main - INFO - Stats: Captured=2954, Processed=2897, Dropped=0, ActiveFlows=2, Alerts=39
+2026-02-05 18:15:20,178 - src.main - INFO - Stats: Captured=2956, Processed=2899, Dropped=0, ActiveFlows=1, Alerts=39
+2026-02-05 18:15:29,431 - src.main - INFO - Stats: Captured=2959, Processed=2902, Dropped=0, ActiveFlows=3, Alerts=39
+2026-02-05 18:15:32,248 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:15:39,432 - src.main - INFO - Stats: Captured=2959, Processed=2902, Dropped=0, ActiveFlows=2, Alerts=40
+2026-02-05 18:15:49,436 - src.main - INFO - Stats: Captured=2959, Processed=2902, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:15:58,694 - src.main - INFO - Stats: Captured=2961, Processed=2904, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:16:08,715 - src.main - INFO - Stats: Captured=2965, Processed=2904, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:16:18,739 - src.main - INFO - Stats: Captured=2965, Processed=2904, Dropped=0, ActiveFlows=0, Alerts=40
+2026-02-05 18:16:28,020 - src.main - INFO - Stats: Captured=2967, Processed=2906, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:16:38,024 - src.main - INFO - Stats: Captured=2968, Processed=2907, Dropped=0, ActiveFlows=2, Alerts=40
+2026-02-05 18:16:48,031 - src.main - INFO - Stats: Captured=2968, Processed=2907, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:16:58,034 - src.main - INFO - Stats: Captured=2968, Processed=2907, Dropped=0, ActiveFlows=0, Alerts=40
+2026-02-05 18:17:07,325 - src.main - INFO - Stats: Captured=2974, Processed=2909, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:17:17,342 - src.main - INFO - Stats: Captured=2978, Processed=2913, Dropped=0, ActiveFlows=2, Alerts=40
+2026-02-05 18:17:27,360 - src.main - INFO - Stats: Captured=2978, Processed=2913, Dropped=0, ActiveFlows=1, Alerts=40
+2026-02-05 18:17:32,456 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:17:36,671 - src.main - INFO - Stats: Captured=2980, Processed=2915, Dropped=0, ActiveFlows=2, Alerts=41
+2026-02-05 18:17:46,686 - src.main - INFO - Stats: Captured=2980, Processed=2915, Dropped=0, ActiveFlows=2, Alerts=41
+2026-02-05 18:17:56,701 - src.main - INFO - Stats: Captured=2980, Processed=2915, Dropped=0, ActiveFlows=0, Alerts=41
+2026-02-05 18:18:05,974 - src.main - INFO - Stats: Captured=2986, Processed=2917, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:18:15,977 - src.main - INFO - Stats: Captured=2986, Processed=2917, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:18:25,980 - src.main - INFO - Stats: Captured=2986, Processed=2917, Dropped=0, ActiveFlows=0, Alerts=41
+2026-02-05 18:18:35,283 - src.main - INFO - Stats: Captured=2988, Processed=2919, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:18:45,290 - src.main - INFO - Stats: Captured=2988, Processed=2919, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:18:55,294 - src.main - INFO - Stats: Captured=2988, Processed=2919, Dropped=0, ActiveFlows=0, Alerts=41
+2026-02-05 18:19:04,673 - src.main - INFO - Stats: Captured=2990, Processed=2921, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:19:14,674 - src.main - INFO - Stats: Captured=2997, Processed=2924, Dropped=0, ActiveFlows=2, Alerts=41
+2026-02-05 18:19:24,677 - src.main - INFO - Stats: Captured=2997, Processed=2924, Dropped=0, ActiveFlows=1, Alerts=41
+2026-02-05 18:19:33,465 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-05 18:19:34,678 - src.main - INFO - Stats: Captured=2998, Processed=2925, Dropped=0, ActiveFlows=1, Alerts=42
+2026-02-05 18:19:43,978 - src.main - INFO - Stats: Captured=3000, Processed=2927, Dropped=0, ActiveFlows=2, Alerts=42
+2026-02-05 18:19:53,984 - src.main - INFO - Stats: Captured=3000, Processed=2927, Dropped=0, ActiveFlows=1, Alerts=42
+2026-02-05 18:20:03,991 - src.main - INFO - Stats: Captured=3000, Processed=2927, Dropped=0, ActiveFlows=0, Alerts=42
+2026-02-05 18:20:13,288 - src.main - INFO - Stats: Captured=3004, Processed=2927, Dropped=0, ActiveFlows=0, Alerts=42
+2026-02-05 18:20:23,304 - src.main - INFO - Stats: Captured=3004, Processed=2927, Dropped=0, ActiveFlows=0, Alerts=42
+2026-02-05 18:20:33,321 - src.main - INFO - Stats: Captured=3004, Processed=2927, Dropped=0, ActiveFlows=0, Alerts=42
+2026-02-05 18:20:42,615 - src.main - INFO - Stats: Captured=3006, Processed=2929, Dropped=0, ActiveFlows=2, Alerts=42
+2026-02-05 18:20:52,617 - src.main - INFO - Stats: Captured=3006, Processed=2929, Dropped=0, ActiveFlows=2, Alerts=42
+2026-02-05 18:21:02,621 - src.main - INFO - Stats: Captured=3006, Processed=2929, Dropped=0, ActiveFlows=0, Alerts=42
+2026-02-05 18:21:11,923 - src.main - INFO - Stats: Captured=3012, Processed=2935, Dropped=0, ActiveFlows=3, Alerts=42
+2026-02-05 18:21:21,934 - src.main - INFO - Stats: Captured=3018, Processed=2937, Dropped=0, ActiveFlows=4, Alerts=42
+2026-02-05 18:21:31,626 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.010)
+2026-02-05 18:21:31,936 - src.main - INFO - Stats: Captured=3018, Processed=2937, Dropped=0, ActiveFlows=2, Alerts=43
+2026-02-05 18:21:32,650 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:21:41,937 - src.main - INFO - Stats: Captured=3018, Processed=2937, Dropped=0, ActiveFlows=0, Alerts=44
+2026-02-05 18:21:51,268 - src.main - INFO - Stats: Captured=3019, Processed=2938, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:22:01,271 - src.main - INFO - Stats: Captured=3019, Processed=2938, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:22:11,275 - src.main - INFO - Stats: Captured=3019, Processed=2938, Dropped=0, ActiveFlows=0, Alerts=44
+2026-02-05 18:22:20,729 - src.main - INFO - Stats: Captured=3025, Processed=2940, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:22:30,735 - src.main - INFO - Stats: Captured=3026, Processed=2941, Dropped=0, ActiveFlows=2, Alerts=44
+2026-02-05 18:22:40,737 - src.main - INFO - Stats: Captured=3026, Processed=2941, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:22:50,071 - src.main - INFO - Stats: Captured=3028, Processed=2943, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:23:00,076 - src.main - INFO - Stats: Captured=3028, Processed=2943, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:23:10,076 - src.main - INFO - Stats: Captured=3029, Processed=2944, Dropped=0, ActiveFlows=1, Alerts=44
+2026-02-05 18:23:19,496 - src.main - INFO - Stats: Captured=3034, Processed=2949, Dropped=0, ActiveFlows=2, Alerts=44
+2026-02-05 18:23:29,498 - src.main - INFO - Stats: Captured=3039, Processed=2950, Dropped=0, ActiveFlows=3, Alerts=44
+2026-02-05 18:23:32,845 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:23:39,502 - src.main - INFO - Stats: Captured=3039, Processed=2950, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:23:48,853 - src.main - INFO - Stats: Captured=3041, Processed=2952, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:23:58,857 - src.main - INFO - Stats: Captured=3041, Processed=2952, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:24:08,858 - src.main - INFO - Stats: Captured=3041, Processed=2952, Dropped=0, ActiveFlows=0, Alerts=45
+2026-02-05 18:24:18,862 - src.main - INFO - Stats: Captured=3041, Processed=2952, Dropped=0, ActiveFlows=0, Alerts=45
+2026-02-05 18:24:28,201 - src.main - INFO - Stats: Captured=3047, Processed=2954, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:24:38,205 - src.main - INFO - Stats: Captured=3047, Processed=2954, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:24:48,211 - src.main - INFO - Stats: Captured=3048, Processed=2955, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:24:57,547 - src.main - INFO - Stats: Captured=3049, Processed=2956, Dropped=0, ActiveFlows=2, Alerts=45
+2026-02-05 18:25:07,552 - src.main - INFO - Stats: Captured=3049, Processed=2956, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:25:17,552 - src.main - INFO - Stats: Captured=3053, Processed=2960, Dropped=0, ActiveFlows=1, Alerts=45
+2026-02-05 18:25:26,893 - src.main - INFO - Stats: Captured=3055, Processed=2962, Dropped=0, ActiveFlows=2, Alerts=45
+2026-02-05 18:25:32,251 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:25:36,894 - src.main - INFO - Stats: Captured=3057, Processed=2962, Dropped=0, ActiveFlows=1, Alerts=46
+2026-02-05 18:25:46,897 - src.main - INFO - Stats: Captured=3057, Processed=2962, Dropped=0, ActiveFlows=0, Alerts=46
+2026-02-05 18:25:56,246 - src.main - INFO - Stats: Captured=3060, Processed=2965, Dropped=0, ActiveFlows=2, Alerts=46
+2026-02-05 18:26:06,247 - src.main - INFO - Stats: Captured=3060, Processed=2965, Dropped=0, ActiveFlows=2, Alerts=46
+2026-02-05 18:26:16,249 - src.main - INFO - Stats: Captured=3060, Processed=2965, Dropped=0, ActiveFlows=0, Alerts=46
+2026-02-05 18:26:26,253 - src.main - INFO - Stats: Captured=3060, Processed=2965, Dropped=0, ActiveFlows=0, Alerts=46
+2026-02-05 18:26:35,604 - src.main - INFO - Stats: Captured=3066, Processed=2967, Dropped=0, ActiveFlows=1, Alerts=46
+2026-02-05 18:26:45,606 - src.main - INFO - Stats: Captured=3066, Processed=2967, Dropped=0, ActiveFlows=1, Alerts=46
+2026-02-05 18:26:55,607 - src.main - INFO - Stats: Captured=3067, Processed=2968, Dropped=0, ActiveFlows=1, Alerts=46
+2026-02-05 18:27:05,073 - src.main - INFO - Stats: Captured=3074, Processed=2973, Dropped=0, ActiveFlows=2, Alerts=46
+2026-02-05 18:27:15,075 - src.main - INFO - Stats: Captured=3078, Processed=2977, Dropped=0, ActiveFlows=3, Alerts=46
+2026-02-05 18:27:17,953 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.060)
+2026-02-05 18:27:25,077 - src.main - INFO - Stats: Captured=3078, Processed=2977, Dropped=0, ActiveFlows=1, Alerts=47
+2026-02-05 18:27:32,526 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:27:34,452 - src.main - INFO - Stats: Captured=3082, Processed=2979, Dropped=0, ActiveFlows=1, Alerts=48
+2026-02-05 18:27:44,454 - src.main - INFO - Stats: Captured=3082, Processed=2979, Dropped=0, ActiveFlows=1, Alerts=48
+2026-02-05 18:27:54,455 - src.main - INFO - Stats: Captured=3082, Processed=2979, Dropped=0, ActiveFlows=0, Alerts=48
+2026-02-05 18:28:03,907 - src.main - INFO - Stats: Captured=3085, Processed=2982, Dropped=0, ActiveFlows=2, Alerts=48
+2026-02-05 18:28:13,909 - src.main - INFO - Stats: Captured=3087, Processed=2982, Dropped=0, ActiveFlows=2, Alerts=48
+2026-02-05 18:28:23,911 - src.main - INFO - Stats: Captured=3087, Processed=2982, Dropped=0, ActiveFlows=0, Alerts=48
+2026-02-05 18:28:33,286 - src.main - INFO - Stats: Captured=3089, Processed=2984, Dropped=0, ActiveFlows=1, Alerts=48
+2026-02-05 18:28:40,896 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:28:43,287 - src.main - INFO - Stats: Captured=3129, Processed=3020, Dropped=0, ActiveFlows=6, Alerts=49
+2026-02-05 18:28:53,288 - src.main - INFO - Stats: Captured=3134, Processed=3025, Dropped=0, ActiveFlows=5, Alerts=49
+2026-02-05 18:29:02,038 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:03,290 - src.main - INFO - Stats: Captured=3135, Processed=3026, Dropped=0, ActiveFlows=5, Alerts=50
+2026-02-05 18:29:04,051 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,052 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,054 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:29:04,451 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.016)
+2026-02-05 18:29:12,669 - src.main - INFO - Stats: Captured=3143, Processed=3032, Dropped=0, ActiveFlows=3, Alerts=54
+2026-02-05 18:29:22,710 - src.main - INFO - Stats: Captured=3143, Processed=3032, Dropped=0, ActiveFlows=2, Alerts=54
+2026-02-05 18:29:32,747 - src.main - INFO - Stats: Captured=3143, Processed=3032, Dropped=0, ActiveFlows=1, Alerts=54
+2026-02-05 18:29:32,929 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:29:42,153 - src.main - INFO - Stats: Captured=3149, Processed=3034, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:29:52,154 - src.main - INFO - Stats: Captured=3149, Processed=3034, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:30:02,169 - src.main - INFO - Stats: Captured=3150, Processed=3035, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:30:11,624 - src.main - INFO - Stats: Captured=3152, Processed=3037, Dropped=0, ActiveFlows=2, Alerts=55
+2026-02-05 18:30:21,633 - src.main - INFO - Stats: Captured=3154, Processed=3037, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:30:31,642 - src.main - INFO - Stats: Captured=3154, Processed=3037, Dropped=0, ActiveFlows=0, Alerts=55
+2026-02-05 18:30:41,131 - src.main - INFO - Stats: Captured=3155, Processed=3038, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:30:51,145 - src.main - INFO - Stats: Captured=3159, Processed=3038, Dropped=0, ActiveFlows=1, Alerts=55
+2026-02-05 18:31:01,145 - src.main - INFO - Stats: Captured=3159, Processed=3038, Dropped=0, ActiveFlows=0, Alerts=55
+2026-02-05 18:31:11,156 - src.main - INFO - Stats: Captured=3162, Processed=3041, Dropped=0, ActiveFlows=2, Alerts=55
+2026-02-05 18:31:20,594 - src.main - INFO - Stats: Captured=3168, Processed=3045, Dropped=0, ActiveFlows=3, Alerts=55
+2026-02-05 18:31:30,596 - src.main - INFO - Stats: Captured=3168, Processed=3045, Dropped=0, ActiveFlows=2, Alerts=55
+2026-02-05 18:31:33,057 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.014)
+2026-02-05 18:31:40,598 - src.main - INFO - Stats: Captured=3168, Processed=3045, Dropped=0, ActiveFlows=0, Alerts=56
+2026-02-05 18:31:50,085 - src.main - INFO - Stats: Captured=3174, Processed=3047, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:32:00,105 - src.main - INFO - Stats: Captured=3174, Processed=3047, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:32:10,118 - src.main - INFO - Stats: Captured=3175, Processed=3048, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:32:19,634 - src.main - INFO - Stats: Captured=3177, Processed=3050, Dropped=0, ActiveFlows=2, Alerts=56
+2026-02-05 18:32:29,649 - src.main - INFO - Stats: Captured=3179, Processed=3050, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:32:39,667 - src.main - INFO - Stats: Captured=3179, Processed=3050, Dropped=0, ActiveFlows=0, Alerts=56
+2026-02-05 18:32:49,213 - src.main - INFO - Stats: Captured=3181, Processed=3052, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:32:59,223 - src.main - INFO - Stats: Captured=3185, Processed=3052, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:33:09,224 - src.main - INFO - Stats: Captured=3186, Processed=3053, Dropped=0, ActiveFlows=1, Alerts=56
+2026-02-05 18:33:18,710 - src.main - INFO - Stats: Captured=3191, Processed=3058, Dropped=0, ActiveFlows=3, Alerts=56
+2026-02-05 18:33:28,711 - src.main - INFO - Stats: Captured=3193, Processed=3058, Dropped=0, ActiveFlows=2, Alerts=56
+2026-02-05 18:33:32,594 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:33:38,714 - src.main - INFO - Stats: Captured=3193, Processed=3058, Dropped=0, ActiveFlows=0, Alerts=57
+2026-02-05 18:33:48,715 - src.main - INFO - Stats: Captured=3193, Processed=3058, Dropped=0, ActiveFlows=0, Alerts=57
+2026-02-05 18:33:58,203 - src.main - INFO - Stats: Captured=3199, Processed=3060, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:34:08,204 - src.main - INFO - Stats: Captured=3200, Processed=3061, Dropped=0, ActiveFlows=2, Alerts=57
+2026-02-05 18:34:18,205 - src.main - INFO - Stats: Captured=3200, Processed=3061, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:34:27,690 - src.main - INFO - Stats: Captured=3204, Processed=3063, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:34:37,692 - src.main - INFO - Stats: Captured=3204, Processed=3063, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:34:47,693 - src.main - INFO - Stats: Captured=3204, Processed=3063, Dropped=0, ActiveFlows=0, Alerts=57
+2026-02-05 18:34:57,188 - src.main - INFO - Stats: Captured=3206, Processed=3065, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:35:07,190 - src.main - INFO - Stats: Captured=3210, Processed=3065, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:35:17,323 - src.main - INFO - Stats: Captured=3214, Processed=3069, Dropped=0, ActiveFlows=1, Alerts=57
+2026-02-05 18:35:26,818 - src.main - INFO - Stats: Captured=3215, Processed=3070, Dropped=0, ActiveFlows=2, Alerts=57
+2026-02-05 18:35:33,017 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:35:36,820 - src.main - INFO - Stats: Captured=3217, Processed=3070, Dropped=0, ActiveFlows=1, Alerts=58
+2026-02-05 18:35:46,821 - src.main - INFO - Stats: Captured=3217, Processed=3070, Dropped=0, ActiveFlows=0, Alerts=58
+2026-02-05 18:35:56,822 - src.main - INFO - Stats: Captured=3219, Processed=3072, Dropped=0, ActiveFlows=1, Alerts=58
+2026-02-05 18:36:06,324 - src.main - INFO - Stats: Captured=3225, Processed=3074, Dropped=0, ActiveFlows=2, Alerts=58
+2026-02-05 18:36:16,089 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:36:16,326 - src.main - INFO - Stats: Captured=3225, Processed=3074, Dropped=0, ActiveFlows=1, Alerts=59
+2026-02-05 18:36:26,327 - src.main - INFO - Stats: Captured=3225, Processed=3074, Dropped=0, ActiveFlows=0, Alerts=59
+2026-02-05 18:36:35,827 - src.main - INFO - Stats: Captured=3229, Processed=3076, Dropped=0, ActiveFlows=1, Alerts=59
+2026-02-05 18:36:45,828 - src.main - INFO - Stats: Captured=3229, Processed=3076, Dropped=0, ActiveFlows=1, Alerts=59
+2026-02-05 18:36:55,828 - src.main - INFO - Stats: Captured=3230, Processed=3077, Dropped=0, ActiveFlows=1, Alerts=59
+2026-02-05 18:37:05,322 - src.main - INFO - Stats: Captured=3233, Processed=3078, Dropped=0, ActiveFlows=2, Alerts=59
+2026-02-05 18:37:15,323 - src.main - INFO - Stats: Captured=3237, Processed=3082, Dropped=0, ActiveFlows=3, Alerts=59
+2026-02-05 18:37:25,323 - src.main - INFO - Stats: Captured=3237, Processed=3082, Dropped=0, ActiveFlows=1, Alerts=59
+2026-02-05 18:37:32,488 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:37:34,854 - src.main - INFO - Stats: Captured=3239, Processed=3084, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:37:44,856 - src.main - INFO - Stats: Captured=3241, Processed=3084, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:37:54,857 - src.main - INFO - Stats: Captured=3241, Processed=3084, Dropped=0, ActiveFlows=0, Alerts=60
+2026-02-05 18:38:04,389 - src.main - INFO - Stats: Captured=3244, Processed=3087, Dropped=0, ActiveFlows=2, Alerts=60
+2026-02-05 18:38:14,390 - src.main - INFO - Stats: Captured=3246, Processed=3087, Dropped=0, ActiveFlows=2, Alerts=60
+2026-02-05 18:38:24,391 - src.main - INFO - Stats: Captured=3246, Processed=3087, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:38:34,393 - src.main - INFO - Stats: Captured=3247, Processed=3088, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:38:43,953 - src.main - INFO - Stats: Captured=3251, Processed=3090, Dropped=0, ActiveFlows=2, Alerts=60
+2026-02-05 18:38:53,954 - src.main - INFO - Stats: Captured=3251, Processed=3090, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:39:03,955 - src.main - INFO - Stats: Captured=3252, Processed=3091, Dropped=0, ActiveFlows=1, Alerts=60
+2026-02-05 18:39:13,524 - src.main - INFO - Stats: Captured=3260, Processed=3097, Dropped=0, ActiveFlows=3, Alerts=60
+2026-02-05 18:39:23,525 - src.main - INFO - Stats: Captured=3260, Processed=3097, Dropped=0, ActiveFlows=2, Alerts=60
+2026-02-05 18:39:33,470 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:39:33,527 - src.main - INFO - Stats: Captured=3260, Processed=3097, Dropped=0, ActiveFlows=0, Alerts=61
+2026-02-05 18:39:43,158 - src.main - INFO - Stats: Captured=3261, Processed=3098, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:39:53,159 - src.main - INFO - Stats: Captured=3263, Processed=3098, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:40:03,161 - src.main - INFO - Stats: Captured=3264, Processed=3099, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:40:12,708 - src.main - INFO - Stats: Captured=3266, Processed=3101, Dropped=0, ActiveFlows=2, Alerts=61
+2026-02-05 18:40:22,709 - src.main - INFO - Stats: Captured=3268, Processed=3101, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:40:32,711 - src.main - INFO - Stats: Captured=3268, Processed=3101, Dropped=0, ActiveFlows=0, Alerts=61
+2026-02-05 18:40:42,717 - src.main - INFO - Stats: Captured=3268, Processed=3101, Dropped=0, ActiveFlows=0, Alerts=61
+2026-02-05 18:40:52,238 - src.main - INFO - Stats: Captured=3272, Processed=3103, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:41:02,240 - src.main - INFO - Stats: Captured=3272, Processed=3103, Dropped=0, ActiveFlows=1, Alerts=61
+2026-02-05 18:41:12,241 - src.main - INFO - Stats: Captured=3275, Processed=3106, Dropped=0, ActiveFlows=2, Alerts=61
+2026-02-05 18:41:21,763 - src.main - INFO - Stats: Captured=3279, Processed=3108, Dropped=0, ActiveFlows=3, Alerts=61
+2026-02-05 18:41:31,764 - src.main - INFO - Stats: Captured=3279, Processed=3108, Dropped=0, ActiveFlows=2, Alerts=61
+2026-02-05 18:41:32,545 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.053)
+2026-02-05 18:41:41,870 - src.main - INFO - Stats: Captured=3279, Processed=3108, Dropped=0, ActiveFlows=0, Alerts=62
+2026-02-05 18:41:51,870 - src.main - INFO - Stats: Captured=3280, Processed=3109, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:42:01,903 - src.main - INFO - Stats: Captured=3282, Processed=3109, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:42:11,988 - src.main - INFO - Stats: Captured=3283, Processed=3110, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:42:21,560 - src.main - INFO - Stats: Captured=3285, Processed=3112, Dropped=0, ActiveFlows=2, Alerts=62
+2026-02-05 18:42:31,563 - src.main - INFO - Stats: Captured=3289, Processed=3112, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:42:41,598 - src.main - INFO - Stats: Captured=3289, Processed=3112, Dropped=0, ActiveFlows=0, Alerts=62
+2026-02-05 18:42:51,254 - src.main - INFO - Stats: Captured=3291, Processed=3114, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:43:01,356 - src.main - INFO - Stats: Captured=3293, Processed=3114, Dropped=0, ActiveFlows=1, Alerts=62
+2026-02-05 18:43:11,458 - src.main - INFO - Stats: Captured=3296, Processed=3117, Dropped=0, ActiveFlows=3, Alerts=62
+2026-02-05 18:43:21,469 - src.main - INFO - Stats: Captured=3298, Processed=3119, Dropped=0, ActiveFlows=2, Alerts=62
+2026-02-05 18:43:31,055 - src.main - INFO - Stats: Captured=3312, Processed=3129, Dropped=0, ActiveFlows=6, Alerts=62
+2026-02-05 18:43:32,325 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.011)
+2026-02-05 18:43:41,064 - src.main - INFO - Stats: Captured=3312, Processed=3129, Dropped=0, ActiveFlows=5, Alerts=63
+2026-02-05 18:43:48,493 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:50,516 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:50,518 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:43:51,072 - src.main - INFO - Stats: Captured=3312, Processed=3129, Dropped=0, ActiveFlows=1, Alerts=66
+2026-02-05 18:43:51,526 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:44:00,653 - src.main - INFO - Stats: Captured=3316, Processed=3131, Dropped=0, ActiveFlows=1, Alerts=67
+2026-02-05 18:44:10,658 - src.main - INFO - Stats: Captured=3317, Processed=3132, Dropped=0, ActiveFlows=2, Alerts=67
+2026-02-05 18:44:20,661 - src.main - INFO - Stats: Captured=3317, Processed=3132, Dropped=0, ActiveFlows=1, Alerts=67
+2026-02-05 18:44:30,241 - src.main - INFO - Stats: Captured=3318, Processed=3133, Dropped=0, ActiveFlows=1, Alerts=67
+2026-02-05 18:44:38,072 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:44:40,242 - src.main - INFO - Stats: Captured=3393, Processed=3204, Dropped=0, ActiveFlows=6, Alerts=68
+2026-02-05 18:44:48,133 - alerts - INFO - MEDIUM - High flow creation rate detected: 93 flows in 3s
+2026-02-05 18:44:50,255 - src.main - INFO - Stats: Captured=3673, Processed=3484, Dropped=0, ActiveFlows=21, Alerts=69
+2026-02-05 18:44:58,200 - alerts - INFO - MEDIUM - High flow creation rate detected: 158 flows in 3s
+2026-02-05 18:44:59,840 - src.main - INFO - Stats: Captured=4008, Processed=3819, Dropped=0, ActiveFlows=35, Alerts=70
+2026-02-05 18:45:09,422 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 18:45:09,851 - src.main - INFO - Stats: Captured=4034, Processed=3845, Dropped=0, ActiveFlows=21, Alerts=71
+2026-02-05 18:45:14,201 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.018)
+2026-02-05 18:45:16,226 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.040)
+2026-02-05 18:45:19,860 - src.main - INFO - Stats: Captured=4063, Processed=3872, Dropped=0, ActiveFlows=5, Alerts=73
+2026-02-05 18:45:20,273 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.020)
+2026-02-05 18:45:26,664 - src.main - INFO - Received signal 2
+2026-02-05 18:45:26,669 - src.main - INFO - Stopping IDS...
+2026-02-05 18:45:26,669 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 18:45:27,319 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 18:45:29,371 - src.main - INFO - IDS stopped
+2026-02-05 19:00:28,591 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 19:00:28,591 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 19:00:28,592 - src.alerts.alerts - INFO - Loaded 195 alerts from data/alerts.jsonl
+2026-02-05 19:00:28,592 - src.main - INFO - Starting IDS...
+2026-02-05 19:00:28,593 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 19:00:28,593 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 19:00:28,594 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 19:00:38,594 - src.main - INFO - Stats: Captured=5, Processed=3, Dropped=0, ActiveFlows=2, Alerts=0
+2026-02-05 19:00:48,596 - src.main - INFO - Stats: Captured=5, Processed=3, Dropped=0, ActiveFlows=2, Alerts=0
+2026-02-05 19:00:50,054 - src.main - INFO - Received signal 2
+2026-02-05 19:00:50,055 - src.main - INFO - Stopping IDS...
+2026-02-05 19:00:50,056 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 19:00:50,594 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 19:00:52,605 - src.main - INFO - IDS stopped
+2026-02-05 19:28:33,414 - src.detection.anomaly_engine - WARNING - Model file not found: data/model.joblib. ML detection disabled.
+2026-02-05 19:28:33,417 - src.main - INFO - Starting IDS...
+2026-02-05 19:28:33,417 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 19:28:33,417 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 19:28:33,418 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 19:28:43,418 - src.main - INFO - Stats: Captured=2, Processed=2, Dropped=0, ActiveFlows=1, Alerts=0
+2026-02-05 19:28:53,419 - src.main - INFO - Stats: Captured=2, Processed=2, Dropped=0, ActiveFlows=1, Alerts=0
+2026-02-05 19:29:00,253 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:29:03,419 - src.main - INFO - Stats: Captured=26, Processed=26, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:29:13,420 - src.main - INFO - Stats: Captured=29, Processed=29, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-05 19:29:23,420 - src.main - INFO - Stats: Captured=30, Processed=30, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-05 19:29:33,421 - src.main - INFO - Stats: Captured=30, Processed=30, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-05 19:29:43,421 - src.main - INFO - Stats: Captured=37, Processed=33, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:29:53,421 - src.main - INFO - Stats: Captured=37, Processed=33, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:30:03,422 - src.main - INFO - Stats: Captured=55, Processed=51, Dropped=0, ActiveFlows=4, Alerts=1
+2026-02-05 19:30:13,423 - src.main - INFO - Stats: Captured=57, Processed=53, Dropped=0, ActiveFlows=4, Alerts=1
+2026-02-05 19:30:23,423 - src.main - INFO - Stats: Captured=58, Processed=54, Dropped=0, ActiveFlows=4, Alerts=1
+2026-02-05 19:30:33,424 - src.main - INFO - Stats: Captured=58, Processed=54, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:30:43,424 - src.main - INFO - Stats: Captured=58, Processed=54, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-05 19:30:53,425 - src.main - INFO - Stats: Captured=58, Processed=54, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-05 19:31:03,425 - src.main - INFO - Stats: Captured=58, Processed=54, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-05 19:31:13,425 - src.main - INFO - Stats: Captured=61, Processed=57, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:31:23,426 - src.main - INFO - Stats: Captured=63, Processed=59, Dropped=0, ActiveFlows=2, Alerts=1
+2026-02-05 19:31:33,426 - src.main - INFO - Stats: Captured=63, Processed=59, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:31:43,427 - src.main - INFO - Stats: Captured=63, Processed=59, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-05 19:31:53,427 - src.main - INFO - Stats: Captured=63, Processed=59, Dropped=0, ActiveFlows=0, Alerts=1
+2026-02-05 19:32:03,428 - src.main - INFO - Stats: Captured=70, Processed=66, Dropped=0, ActiveFlows=3, Alerts=1
+2026-02-05 19:32:13,428 - src.main - INFO - Stats: Captured=86, Processed=82, Dropped=0, ActiveFlows=4, Alerts=1
+2026-02-05 19:32:23,429 - src.main - INFO - Stats: Captured=91, Processed=83, Dropped=0, ActiveFlows=5, Alerts=1
+2026-02-05 19:32:33,429 - src.main - INFO - Stats: Captured=91, Processed=83, Dropped=0, ActiveFlows=1, Alerts=1
+2026-02-05 19:32:36,358 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:32:43,430 - src.main - INFO - Stats: Captured=113, Processed=105, Dropped=0, ActiveFlows=1, Alerts=2
+2026-02-05 19:32:53,431 - src.main - INFO - Stats: Captured=113, Processed=105, Dropped=0, ActiveFlows=1, Alerts=2
+2026-02-05 19:33:03,431 - src.main - INFO - Stats: Captured=113, Processed=105, Dropped=0, ActiveFlows=0, Alerts=2
+2026-02-05 19:33:13,432 - src.main - INFO - Stats: Captured=116, Processed=108, Dropped=0, ActiveFlows=1, Alerts=2
+2026-02-05 19:33:23,432 - src.main - INFO - Stats: Captured=117, Processed=109, Dropped=0, ActiveFlows=2, Alerts=2
+2026-02-05 19:33:33,432 - src.main - INFO - Stats: Captured=117, Processed=109, Dropped=0, ActiveFlows=2, Alerts=2
+2026-02-05 19:33:43,433 - src.main - INFO - Stats: Captured=119, Processed=111, Dropped=0, ActiveFlows=1, Alerts=2
+2026-02-05 19:33:53,433 - src.main - INFO - Stats: Captured=123, Processed=111, Dropped=0, ActiveFlows=1, Alerts=2
+2026-02-05 19:34:00,094 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:34:03,434 - src.main - INFO - Stats: Captured=149, Processed=137, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:34:13,434 - src.main - INFO - Stats: Captured=149, Processed=137, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:34:23,434 - src.main - INFO - Stats: Captured=150, Processed=138, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:34:33,435 - src.main - INFO - Stats: Captured=150, Processed=138, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:34:43,436 - src.main - INFO - Stats: Captured=152, Processed=140, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:34:53,436 - src.main - INFO - Stats: Captured=157, Processed=141, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:35:03,437 - src.main - INFO - Stats: Captured=157, Processed=141, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:35:13,437 - src.main - INFO - Stats: Captured=160, Processed=144, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:35:23,437 - src.main - INFO - Stats: Captured=161, Processed=145, Dropped=0, ActiveFlows=2, Alerts=3
+2026-02-05 19:35:33,438 - src.main - INFO - Stats: Captured=161, Processed=145, Dropped=0, ActiveFlows=1, Alerts=3
+2026-02-05 19:35:39,851 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:35:43,438 - src.main - INFO - Stats: Captured=179, Processed=163, Dropped=0, ActiveFlows=2, Alerts=4
+2026-02-05 19:35:53,439 - src.main - INFO - Stats: Captured=182, Processed=164, Dropped=0, ActiveFlows=3, Alerts=4
+2026-02-05 19:36:03,439 - src.main - INFO - Stats: Captured=182, Processed=164, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:36:13,439 - src.main - INFO - Stats: Captured=182, Processed=164, Dropped=0, ActiveFlows=0, Alerts=4
+2026-02-05 19:36:23,440 - src.main - INFO - Stats: Captured=183, Processed=165, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:36:33,440 - src.main - INFO - Stats: Captured=183, Processed=165, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:36:43,441 - src.main - INFO - Stats: Captured=183, Processed=165, Dropped=0, ActiveFlows=0, Alerts=4
+2026-02-05 19:36:53,442 - src.main - INFO - Stats: Captured=183, Processed=165, Dropped=0, ActiveFlows=0, Alerts=4
+2026-02-05 19:37:03,442 - src.main - INFO - Stats: Captured=183, Processed=165, Dropped=0, ActiveFlows=0, Alerts=4
+2026-02-05 19:37:13,442 - src.main - INFO - Stats: Captured=186, Processed=168, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:37:23,443 - src.main - INFO - Stats: Captured=186, Processed=168, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:37:33,443 - src.main - INFO - Stats: Captured=187, Processed=169, Dropped=0, ActiveFlows=1, Alerts=4
+2026-02-05 19:37:36,456 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:37:43,444 - src.main - INFO - Stats: Captured=210, Processed=190, Dropped=0, ActiveFlows=2, Alerts=5
+2026-02-05 19:37:53,444 - src.main - INFO - Stats: Captured=210, Processed=190, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:38:03,444 - src.main - INFO - Stats: Captured=210, Processed=190, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:38:13,445 - src.main - INFO - Stats: Captured=210, Processed=190, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:38:23,445 - src.main - INFO - Stats: Captured=210, Processed=190, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:38:33,445 - src.main - INFO - Stats: Captured=212, Processed=192, Dropped=0, ActiveFlows=2, Alerts=5
+2026-02-05 19:38:43,446 - src.main - INFO - Stats: Captured=214, Processed=194, Dropped=0, ActiveFlows=3, Alerts=5
+2026-02-05 19:38:53,446 - src.main - INFO - Stats: Captured=218, Processed=194, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:39:03,447 - src.main - INFO - Stats: Captured=218, Processed=194, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:39:13,447 - src.main - INFO - Stats: Captured=222, Processed=198, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:39:23,447 - src.main - INFO - Stats: Captured=222, Processed=198, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:39:33,448 - src.main - INFO - Stats: Captured=223, Processed=199, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:39:43,448 - src.main - INFO - Stats: Captured=225, Processed=201, Dropped=0, ActiveFlows=2, Alerts=5
+2026-02-05 19:39:53,448 - src.main - INFO - Stats: Captured=227, Processed=201, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:40:03,449 - src.main - INFO - Stats: Captured=227, Processed=201, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:40:13,449 - src.main - INFO - Stats: Captured=227, Processed=201, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:40:23,449 - src.main - INFO - Stats: Captured=227, Processed=201, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:40:33,450 - src.main - INFO - Stats: Captured=228, Processed=202, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:40:43,450 - src.main - INFO - Stats: Captured=228, Processed=202, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:40:53,450 - src.main - INFO - Stats: Captured=232, Processed=204, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:03,451 - src.main - INFO - Stats: Captured=232, Processed=204, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:13,452 - src.main - INFO - Stats: Captured=235, Processed=207, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:23,452 - src.main - INFO - Stats: Captured=235, Processed=207, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:33,453 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:43,453 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:41:53,454 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:42:03,454 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:42:13,454 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:42:23,455 - src.main - INFO - Stats: Captured=236, Processed=208, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:42:33,456 - src.main - INFO - Stats: Captured=237, Processed=209, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:42:43,456 - src.main - INFO - Stats: Captured=237, Processed=209, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:42:53,457 - src.main - INFO - Stats: Captured=237, Processed=209, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:43:03,457 - src.main - INFO - Stats: Captured=237, Processed=209, Dropped=0, ActiveFlows=0, Alerts=5
+2026-02-05 19:43:13,458 - src.main - INFO - Stats: Captured=240, Processed=212, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:43:23,458 - src.main - INFO - Stats: Captured=240, Processed=212, Dropped=0, ActiveFlows=1, Alerts=5
+2026-02-05 19:43:29,768 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:43:33,458 - src.main - INFO - Stats: Captured=262, Processed=234, Dropped=0, ActiveFlows=6, Alerts=6
+2026-02-05 19:43:38,020 - src.main - INFO - Received signal 2
+2026-02-05 19:43:38,116 - src.main - INFO - Stopping IDS...
+2026-02-05 19:43:38,116 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 19:43:38,764 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 19:43:40,764 - src.main - INFO - IDS stopped
+2026-02-05 19:47:23,175 - src.detection.anomaly_engine - INFO - Loaded ML model from data/model.joblib
+2026-02-05 19:47:23,175 - src.detection.anomaly_engine - INFO - Loaded model metadata from data/model_meta.json
+2026-02-05 19:47:23,175 - src.alerts.alerts - INFO - Loaded 6 alerts from data/alerts.jsonl
+2026-02-05 19:47:23,176 - src.main - INFO - Starting IDS...
+2026-02-05 19:47:23,176 - src.sniffer.sniffer - INFO - Starting Scapy sniff on eth0
+2026-02-05 19:47:23,176 - src.sniffer.sniffer - INFO - Packet sniffer started on interface eth0
+2026-02-05 19:47:23,177 - src.main - INFO - IDS running. Press Ctrl+C to stop.
+2026-02-05 19:47:27,868 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:33,177 - src.main - INFO - Stats: Captured=54, Processed=52, Dropped=0, ActiveFlows=3, Alerts=1
+2026-02-05 19:47:40,538 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:43,178 - src.main - INFO - Stats: Captured=96, Processed=94, Dropped=0, ActiveFlows=7, Alerts=2
+2026-02-05 19:47:50,538 - alerts - INFO - MEDIUM - High flow creation rate detected: 15 flows in 3s
+2026-02-05 19:47:53,178 - src.main - INFO - Stats: Captured=148, Processed=146, Dropped=0, ActiveFlows=7, Alerts=3
+2026-02-05 19:48:01,311 - alerts - INFO - MEDIUM - High flow creation rate detected: 16 flows in 3s
+2026-02-05 19:48:03,178 - src.main - INFO - Stats: Captured=205, Processed=203, Dropped=0, ActiveFlows=8, Alerts=4
+2026-02-05 19:48:04,199 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:11,402 - alerts - INFO - MEDIUM - High flow creation rate detected: 126 flows in 3s
+2026-02-05 19:48:13,179 - src.main - INFO - Stats: Captured=542, Processed=540, Dropped=0, ActiveFlows=35, Alerts=6
+2026-02-05 19:48:17,206 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:21,534 - alerts - INFO - MEDIUM - High flow creation rate detected: 124 flows in 3s
+2026-02-05 19:48:23,179 - src.main - INFO - Stats: Captured=900, Processed=898, Dropped=0, ActiveFlows=63, Alerts=8
+2026-02-05 19:48:25,223 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:27,230 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:28,234 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:48:30,245 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:48:31,542 - alerts - INFO - MEDIUM - High flow creation rate detected: 130 flows in 3s
+2026-02-05 19:48:33,180 - src.main - INFO - Stats: Captured=1308, Processed=1306, Dropped=0, ActiveFlows=64, Alerts=13
+2026-02-05 19:48:34,260 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:48:37,274 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:39,285 - alerts - INFO - HIGH - TCP connect port scan detected: 8 unique ports in 5s
+2026-02-05 19:48:40,287 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:48:41,583 - alerts - INFO - MEDIUM - High flow creation rate detected: 108 flows in 3s
+2026-02-05 19:48:43,180 - src.main - INFO - Stats: Captured=1715, Processed=1713, Dropped=0, ActiveFlows=67, Alerts=18
+2026-02-05 19:48:45,312 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:48:46,318 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:48:51,685 - alerts - INFO - MEDIUM - High flow creation rate detected: 100 flows in 3s
+2026-02-05 19:48:53,181 - src.main - INFO - Stats: Captured=2093, Processed=2089, Dropped=0, ActiveFlows=67, Alerts=21
+2026-02-05 19:48:59,385 - alerts - INFO - HIGH - TCP connect port scan detected: 3 unique ports in 5s
+2026-02-05 19:49:01,803 - alerts - INFO - MEDIUM - High flow creation rate detected: 114 flows in 3s
+2026-02-05 19:49:02,401 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:49:03,181 - src.main - INFO - Stats: Captured=2517, Processed=2513, Dropped=0, ActiveFlows=66, Alerts=24
+2026-02-05 19:49:04,410 - alerts - INFO - HIGH - TCP connect port scan detected: 7 unique ports in 5s
+2026-02-05 19:49:05,416 - alerts - INFO - HIGH - TCP connect port scan detected: 5 unique ports in 5s
+2026-02-05 19:49:09,432 - alerts - INFO - HIGH - SYN stealth scan detected: 26 SYN packets without ACK in 5s
+2026-02-05 19:49:11,857 - alerts - INFO - MEDIUM - High flow creation rate detected: 52 flows in 3s
+2026-02-05 19:49:13,181 - src.main - INFO - Stats: Captured=2626, Processed=2622, Dropped=0, ActiveFlows=91, Alerts=28
+2026-02-05 19:49:19,473 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.004)
+2026-02-05 19:49:20,478 - alerts - INFO - LOW - Anomalous network flow detected (score: 0.001)
+2026-02-05 19:49:22,009 - alerts - INFO - MEDIUM - High flow creation rate detected: 19 flows in 3s
+2026-02-05 19:49:23,183 - src.main - INFO - Stats: Captured=2714, Processed=2710, Dropped=0, ActiveFlows=114, Alerts=31
+2026-02-05 19:49:25,499 - alerts - INFO - HIGH - TCP connect port scan detected: 27 unique ports in 5s
+2026-02-05 19:49:29,527 - alerts - INFO - HIGH - SYN stealth scan detected: 30 SYN packets without ACK in 5s
+2026-02-05 19:49:32,319 - alerts - INFO - MEDIUM - High flow creation rate detected: 48 flows in 3s
+2026-02-05 19:49:33,184 - src.main - INFO - Stats: Captured=2832, Processed=2828, Dropped=0, ActiveFlows=120, Alerts=34
+2026-02-05 19:49:42,470 - alerts - INFO - MEDIUM - High flow creation rate detected: 18 flows in 3s
+2026-02-05 19:49:43,184 - src.main - INFO - Stats: Captured=2921, Processed=2916, Dropped=0, ActiveFlows=123, Alerts=35
+2026-02-05 19:49:45,638 - alerts - INFO - HIGH - TCP connect port scan detected: 31 unique ports in 5s
+2026-02-05 19:49:49,668 - alerts - INFO - HIGH - SYN stealth scan detected: 32 SYN packets without ACK in 5s
+2026-02-05 19:49:53,011 - src.main - INFO - Received signal 2
+2026-02-05 19:49:53,062 - src.main - INFO - Stopping IDS...
+2026-02-05 19:49:53,062 - src.sniffer.sniffer - INFO - Stopping packet sniffer...
+2026-02-05 19:49:53,175 - src.sniffer.sniffer - INFO - Packet sniffer stopped
+2026-02-05 19:49:53,184 - src.main - INFO - Stats: Captured=3006, Processed=3001, Dropped=0, ActiveFlows=106, Alerts=37
+2026-02-05 19:49:53,709 - src.main - INFO - IDS stopped
